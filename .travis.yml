@@ -1,7 +1,4 @@
 language: php
 php:
 - 5.3
-install:
-- composer require twig/twig:~1.0
-- composer global require "phpunit/phpunit=5.3.*"
 script: phpunit -c vendor/twig/twig/
