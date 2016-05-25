@@ -1,5 +1,8 @@
 language: php
 php:
 - 5.3
-- hhvm
-script: phpunit -c twig/twig/
+install:
+- php vendor/vendors.php
+- composer require twig/twig:~1.0
+- composer global require "phpunit/phpunit=5.3.*"
+script: phpunit -c vendor/twig/twig/
