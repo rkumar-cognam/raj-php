@@ -1,5 +1,10 @@
+{ 
+"name": "rkumar-cognam/raj-php"  
 {
     "require": {
-        "twig/twig": "~1.0"
+        "phpunit/phpunit": "^4.8",
+        "symfony/symfony": "v2.7.7",
+        "twig/twig": "v1.24.0"
     }
+}
 }
