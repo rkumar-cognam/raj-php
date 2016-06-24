@@ -1,10 +1,8 @@
-{ 
-"name": "rkumar-cognam/raj-php"  
 {
-    "require": {
-        "phpunit/phpunit": "^4.8",
-        "symfony/symfony": "v2.7.7",
-        "twig/twig": "v1.24.0"
-    }
-}
+	"name": "blendedux/blended-php",
+	"require": {
+		"phpunit/phpunit": "^4.8",
+		"symfony/symfony": "v2.7.7",
+		"twig/twig": "v1.24.0"
+	}
 }
